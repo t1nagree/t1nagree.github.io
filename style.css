@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Wiguru';
+    src: url('fonts/wiguru_1.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Wiguru', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выравнивание по левому краю */
+    padding: 10px;
+}
+
+.item {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование элементов внутри */
+    background-color: #f7e8e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.description {
+    width: 100%;
+    padding: 20px;
+    text-align: center; /* Центрирование текста */
+    background-color: #f7e8e8;
+}
+
+.description h2 {
+    font-size: 2.5em; /* Увеличиваем размер шрифта на 1.5 раза */
+}
+
+.image {
+    width: 100%;
+    text-align: center; /* Центрирование изображения */
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    font-family: 'Wiguru', Arial, sans-serif; /* Применяем шрифт к кнопкам */
+    background-color: #ff9999;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center; /* Центрирование текста в кнопке */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff6666;
+}
+
